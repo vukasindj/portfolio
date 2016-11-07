@@ -1,0 +1,64 @@
+* {
+	
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.jumbotron {
+  background-image:url('../images/intro-xs.jpg');
+  backgroung-repeat:no-repeat;
+  background-size:cover; 
+  background-attachment:fixed;
+  min-height:400px;
+
+
+
+
+p {
+	color:#8b7a50;
+	font-family: 'Roboto', sans-serif;
+	padding: 30px;
+}
+
+  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+     background-image:url('../images/intro-sm.jpg');
+  } 
+
+  @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+     background-image:url('../images/intro-md.jpg');
+  } 
+
+  @media (min-width: @screen-lg-min) {
+     background-image:url('../images/intro-lg.jpg');
+  }
+} 
+
+#portfolio {
+	
+	.portfolio-projekat .thumbnail {
+		position:relative;
+	}
+
+	.portfolio-projekat-title {
+		display:block;
+		width:auto;
+		padding:0.5em 1em;
+		background-color:rgba(0,0,0,0.3);
+		font-weight:bold;
+		position:absolute;
+		top:4px;
+		left:4px;
+		color:white;
+	}
+} 
+
+#testimonials {
+	img {
+		border-radius:50%;
+		margin-right:10px;
+
+	} 
+  p {
+      padding:10px;
+  }
+}
